@@ -11,7 +11,8 @@ You can configure the plugin to deal void damage at more or less any Y coordinat
 
 ## Permissions:
 
-Note that if you are OP and trying to test this plugin, you will bypass the void damage. So de-op yourself before trying to test, or negate the permission.
+**Note that if you are OP and trying to test this plugin, you will bypass the void damage. So de-op yourself before trying to test, or negate the permission.**
+
 ```yml
 # voidcontrol.admin - allows you to use the admin /voidcontrol reload command
 # voidcontrol.bypass - allows a player to bypass the void damage caused by this plugin[/code]

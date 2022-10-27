@@ -1,0 +1,34 @@
+# VoidControl by sleepylessons
+#
+# Allow players to bypass void damage caused by plugin with the permission: voidcontrol.bypass (normal void damage
+# is not affected by or changed by this plugin).
+# This plugin is pre-configured to match Vanilla behavior by default,
+# so it is safe to install without configuring.
+#
+global:
+  # how often should we check player's location (in ticks; there are 20 ticks per second) / how often should
+  # we damage players that are considered in the void?
+  interval: 20
+  # how much damage should we deal to players considered in the void per interval? Vanilla void damage is
+  # 4.0 damage per 20 ticks (4 damage per second)
+  damage-per-interval: 4.0
+
+# Each rule has 3 values
+#
+# worlds: a comma-seperated list of worlds that you want this rule to apply to; use ALL to have it apply to all worlds
+#
+# void-damage-below: the Y level below which a player will take void damage; set to 0.0 to disable (if actually you need
+#                    to use 0, simply use 0.01)
+#
+# void-damage-below: the Y level below which a player will take void damage; set to 0.0 to disable (if actually you need
+#                    to use 0, simply use 0.01)
+#
+# By default, these are set to the vanilla rules, in which there is no void damage anywhere above the player
+# and normal void damage Below y128 in OW and Below y-64 in the Nether/The End
+rules:
+- worlds: world
+  void-damage-above: 0.0
+  void-damage-below: -128.0
+- worlds: world_nether, world_the_end
+  void-damage-above: 0.0
+  void-damage-below: -64.0

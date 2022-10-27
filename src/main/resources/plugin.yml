@@ -1,0 +1,11 @@
+name: VoidControl
+version: '${project.version}'
+main: fun.sleepy.voidcontrol.VoidControl
+api-version: 1.19
+authors: [ sleepylessons ]
+description: Allows you to better control at which Y levels players should take void damage
+website: https://sleepy.fun
+commands:
+  voidcontrol:
+    description: "VoidControl admin command"
+    usage: /voidcontrol <reload>

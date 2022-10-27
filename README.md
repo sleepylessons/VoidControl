@@ -15,7 +15,7 @@ You can configure the plugin to deal void damage at more or less any Y coordinat
 
 ```yml
 # voidcontrol.admin - allows you to use the admin /voidcontrol reload command
-# voidcontrol.bypass - allows a player to bypass the void damage caused by this plugin[/code]
+# voidcontrol.bypass - allows a player to bypass the void damage caused by this plugin
 ```
 
 ## Commands:

@@ -2,6 +2,7 @@
 #
 # Allow players to bypass void damage caused by plugin with the permission: voidcontrol.bypass (normal void damage
 # is not affected by or changed by this plugin).
+#
 # This plugin is pre-configured to match Vanilla behavior by default,
 # so it is safe to install without configuring.
 #
@@ -17,7 +18,7 @@ global:
 #
 # worlds: a comma-seperated list of worlds that you want this rule to apply to; use ALL to have it apply to all worlds
 #
-# void-damage-below: the Y level below which a player will take void damage; set to 0.0 to disable (if actually you need
+# void-damage-above: the Y level below which a player will take void damage; set to 0.0 to disable (if actually you need
 #                    to use 0, simply use 0.01)
 #
 # void-damage-below: the Y level below which a player will take void damage; set to 0.0 to disable (if actually you need

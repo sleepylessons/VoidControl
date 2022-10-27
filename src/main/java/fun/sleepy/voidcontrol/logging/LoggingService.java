@@ -59,7 +59,7 @@ public class LoggingService {
 
     public void logGeneralRuleWarning(Integer ruleNumber) {
         logWarning(
-                "Rule #" + ruleNumber + " could not be processed to due malformed configuration; see " +
+                "Rule #" + ruleNumber + " could not be processed due to malformed configuration; see " +
                 "Documentation for proper formatting."
         );
     }

@@ -1,5 +1,5 @@
 # VoidControl
-Allows you to better control at which Y levels players should take void damage
+A Spigot plugin that allows you to better control at which Y levels players should take void damage on your Minecraft Server
 
 **NOTICE: This plugin is free, so [please consider leaving a review in payment](https://www.spigotmc.org/resources/voidcontrol.105944/). Leave a comment or message me directly if you have any issues and I will fix them ASAP.**
 
